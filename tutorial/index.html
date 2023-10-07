@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Mon Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app/app.js"></script>
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <p>Chargement...</p>
+
+
+
+    </div>
+    <div class="email-notification">
+        <img src="img/email.jpg" alt="email" onclick="display_modal()">
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <h2>S'inscrire a la newsletter</h2>
+            <form action="newsletter.php" method="post">
+                <input type="mail" name="mail" placeholder="example@gmail.com" required>
+                <input class="qwertyuio" type="submit" value="S'inscrire">
+            </form>
+        </div>
+    </div>
+
+
+    <header>
+        <a href="/"><img src="img/Snapchat-1493845971.jpg" alt="logo de l'equipe"></a>
+        <a href="/">Martcher Store</a>
+        <ul>
+            <li class="ert"><a href="#ACCUEIL">ACCUEIL</a></li>
+            <li class="ert"><a href="#A PROPOS">A PROPOS</a></li>
+            <li class="ert"><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="page-main">
+        <div class="bienvenue" id="ACCUEIL">
+            <img src="img/download (1).jpg">
+            <div class="texte">
+                <h1 class="title-category">Bienvenue chez nous !</h1>
+                <p>
+                 mdddd dddd ddddd dd ddddd ddddd d ddd ddddd ddddd dddd dd ddddd dddddd ddddd ddmmm mmmmmm mmmmmm mmmmmmmm mmmm mmmmm mmmmmm mmmm mmmmm mmmmmm mmmmm mmmmmm mmm mmmmmmmmm m mmmmmmmm mmmmm m m m m mmmmm mmmmm mmmmmm mmmmm mm m m  mmdddd dddddd
+                </p>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="a-propos" id="A PROPOS">
+            <h2 class="title-category">A PROPOS</h2>
+            <div class="picture-propos">
+                <div class="infos-picture-propos">
+                    <div class="picture-propos-text">
+                        <h3>Notre Team</h3>
+                        <p class="tet">
+                         mdddd dddd ddddd dd ddddd ddddd d ddd ddddd ddddd dddd dd ddddd dddddd ddddd ddmmm mmmmmm mmmmmm mmmmmmmm mmmm mmmmm mmmmmm mmmm mmmmm mmmmmm mmmmm mmmmmm mmm mmmmmmmmm m mmmmmmmm mmmmm m m m m mmmmm mmmmm mmmmmm mmmmm mm m m  mmdddd dddddd
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="CONTACT" id="CONTACT">
+            <h2 class="title-category">CONTACT</h2>
+            <div class="form-contact-container">
+                <form action="" class="form-contact">
+                    <div class="form-top">
+                        <div class="form-left">
+                            <div>
+                                <label for="nom">Nom</label>
+                                <input class="plm" type="text" name="nom" placeholder="Nom complet...">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input autocomplete="off" class="plm" type="email" name="email" placeholder="example@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <label for="message">Message</label>
+                            <textarea name="message" cols="30" rows="3"
+                                placeholder="Je vous contacte pour..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <input type="submit" name="envoyer" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="commentaire">
+            <h2 class="title-category">Commentaires</h2>
+            <div class="commentaire">
+                <img src="img/téléchargement.png" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Jean Dupont</h3>
+                    <p class="commentaire-message">
+                     mdddd dddd ddddd dd ddddd ddddd d ddd ddddd ddddd dddd dd ddddd dddddd ddddd ddmmm mmmmmm mmmmmm mmmmmmmm mmmm mmmmm mmmmmm mmmm mmmmm mmmmmm mmmmm mmmmmm mmm mmmmmmmmm m mmmmmmmm mmmmm m m m m mmmmm mmmmm mmmmmm mmmmm mm m m  mmdddd dddddd
+                    </p>
+                </div>
+            </div>
+            <div class="commentaire">
+                <img src="img/téléchargement.png" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Jean Dupont</h3>
+                    <p class="commentaire-message">
+                     mdddd dddd ddddd dd ddddd ddddd d ddd ddddd ddddd dddd dd ddddd dddddd ddddd ddmmm mmmmmm mmmmmm mmmmmmmm mmmm mmmmm mmmmmm mmmm mmmmm mmmmmm mmmmm mmmmmm mmm mmmmmmmmm m mmmmmmmm mmmmm m m m m mmmmm mmmmm mmmmmm mmmmm mm m m  mmdddd dddddd
+                    </p>
+                </div>
+            </div>
+            <div class="commentaire">
+                <img src="img/téléchargement.png" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Jean Dupont</h3>
+                    <p class="commentaire-message">
+                     mdddd dddd ddddd dd ddddd ddddd d ddd ddddd ddddd dddd dd ddddd dddddd ddddd ddmmm mmmmmm mmmmmm mmmmmmmm mmmm mmmmm mmmmmm mmmm mmmmm mmmmmm mmmmm mmmmmm mmm mmmmmmmmm m mmmmmmmm mmmmm m m m m mmmmm mmmmm mmmmmm mmmmm mm m m  mmdddd dddddd
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+       <h2>Mon Site @ 2023</h2> 
+    </footer>
+</body>
+
+</html>
